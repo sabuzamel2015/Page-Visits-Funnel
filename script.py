@@ -1,6 +1,7 @@
 import codecademylib
 import pandas as pd
 
+#read the CSV files 
 visits = pd.read_csv('visits.csv',
                      parse_dates=[1])
 cart = pd.read_csv('cart.csv',
